@@ -1,0 +1,46 @@
+# AI Selloff, Price Shock & Fundamental Risk Monitor — configuration (user spec, 27 Oct 2026)
+thresholds:            # all configurable; initial alert when ANY fires
+  daily_decline_pct: -5.0
+  intraday_decline_pct: -3.0
+  abnormal_return_sigma: 2.5        # vs recent daily-return distribution
+  volume_vs_20d_avg: 2.0
+  benchmark_underperformance: material   # vs Nasdaq / semis / industry benchmark
+  event_coincidence: [filing, earnings, financing, material_news]
+metrics_per_alert:
+  - daily_and_intraday_pct_change
+  - absolute_price_change
+  - volume_vs_20d_average
+  - return_5d_and_20d
+  - relative_performance_vs_nasdaq_semis_industry
+  - historical_volatility_and_abnormal_return_score
+  - market_cap_change
+  - bond_yield_or_credit_spread_move_where_available
+rules:
+  - adjusted prices for historical comparisons
+  - regular / pre-market / after-hours moves recorded separately
+  - one alert per event (dedupe); historical alerts preserved for explanation-quality testing
+  - prices labelled with source, exchange timestamp, retrieval timestamp, currency, session, delay
+  - if real-time is unavailable the feed is labelled DELAYED — never presented as live
+  - private companies have NO daily price series; tracked via verified material events only
+catalyst_classes:
+  A: company-specific fundamental deterioration
+  B: earnings or guidance disappointment
+  C: financing, debt or liquidity stress
+  D: technology or competitive disruption
+  E: regulatory, legal or operational shock
+  F: sector-wide valuation or positioning sell-off
+  G: macro-driven market decline
+  H: unconfirmed or mixed cause   # never claim causation from simultaneity; "cause not confirmed" where evidence is insufficient
+severity:
+  critical: extreme decline AND verified liquidity/default/covenant/major contractual risk   # NEVER from price alone
+  high: sharp abnormal decline WITH a material adverse company event
+  medium: significant decline, plausible but unconfirmed catalyst
+  watch: abnormal price/volume move, no verified fundamental cause
+universe_public:
+  ai_models_software: [MSFT, GOOGL, META, AMZN, PLTR, NOW, CRM, ADBE, SNOW, AI, BBAI, SOUN]
+  chips_semicap_memory: [NVDA, AVGO, AMD, TSM, ASML, AMAT, LRCX, KLAC, MU, MRVL, ARM, INTC, SMCI]
+  cloud_infra_dc_power_cooling: [ORCL, CRWV, NBIS, CBRS, DELL, HPE, EQIX, DLR, VRT, ETN, PWR, MOD, APLD, IREN, CORZ, WULF, CIFR, BTDR, HUT]
+  servers_networking_storage: [ANET, CSCO, NTAP, PSTG, WDC, STX]
+  robotics_autonomous: [TSLA, RKLB, AUR, SERV, SYM, ISRG]
+universe_private_watchlist: [OpenAI, Anthropic_pre_IPO, Databricks, Scale AI, Anduril, Waymo, Figure AI, SSI, Mistral AI, Perplexity, xAI_into_SpaceX, Nscale_pre_listing]
+benchmarks: [Nasdaq Composite, Nasdaq-100, Philadelphia Semiconductor Index (SOX), sector ETF where relevant]

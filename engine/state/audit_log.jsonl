@@ -1,0 +1,84 @@
+{"ts": "2026-10-27T14:06:30.149155+00:00", "event": "check_ok", "company": "Fixture Co", "result": "ok_no_new", "new_events": 0, "latest": "0000000000-26-000001"}
+{"ts": "2026-10-27T14:06:30.149870+00:00", "event": "event_recorded", "company": "Fixture Co", "kind": "filing", "accession": "0000000000-26-000099"}
+{"ts": "2026-10-27T14:06:30.149991+00:00", "event": "check_ok", "company": "Fixture Co", "result": "ok_new", "new_events": 1, "latest": "0000000000-26-000099"}
+{"ts": "2026-10-27T14:06:30.150053+00:00", "event": "amendment_applied", "metric": "fixture.revenue", "versions": 1}
+{"ts": "2026-10-27T14:06:30.150097+00:00", "event": "amendment_applied", "metric": "fixture.revenue", "versions": 2}
+{"ts": "2026-10-27T14:06:30.150183+00:00", "event": "event_recorded", "company": "CoreWeave", "kind": "contract", "accession": null}
+{"ts": "2026-10-27T14:06:30.150220+00:00", "event": "duplicate_suppressed", "reason": "same obligation", "key": "654cee19c6b8ad8d"}
+{"ts": "2026-10-27T14:06:30.150315+00:00", "event": "check_ok", "company": "Fixture Co", "result": "ok_no_new", "new_events": 0, "latest": "0000000000-26-000001"}
+{"ts": "2026-10-27T14:06:44.151099+00:00", "event": "check_failed", "company": "Fixture Co", "source": "sec_edgar_submissions", "error": "OSError: simulated outage", "url": "https://data.sec.gov/submissions/CIK0000000001.json"}
+{"ts": "2026-10-27T14:08:02.833602+00:00", "event": "check_ok", "company": "NVIDIA CORP (NVDA)", "result": "ok_no_new", "new_events": 0, "latest": "0002152188-26-000007"}
+{"ts": "2026-10-27T14:08:04.241372+00:00", "event": "check_ok", "company": "MICROSOFT CORP (MSFT)", "result": "ok_no_new", "new_events": 0, "latest": "0001214659-26-013218"}
+{"ts": "2026-10-27T14:08:05.728253+00:00", "event": "check_ok", "company": "Alphabet Inc. (GOOGL)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-423187"}
+{"ts": "2026-10-27T14:08:07.668290+00:00", "event": "check_ok", "company": "Meta Platforms, Inc. (META)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-432549"}
+{"ts": "2026-10-27T14:08:09.042789+00:00", "event": "check_ok", "company": "AMAZON COM INC (AMZN)", "result": "ok_no_new", "new_events": 0, "latest": "0001595602-26-000009"}
+{"ts": "2026-10-27T14:08:10.471454+00:00", "event": "check_ok", "company": "Broadcom Inc. (AVGO)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-110983"}
+{"ts": "2026-10-27T14:08:11.686889+00:00", "event": "check_ok", "company": "ADVANCED MICRO DEVICES INC (AMD)", "result": "ok_no_new", "new_events": 0, "latest": "0000002488-26-000184"}
+{"ts": "2026-10-27T14:08:12.428581+00:00", "event": "check_ok", "company": "ORACLE CORP (ORCL)", "result": "ok_no_new", "new_events": 0, "latest": "0001341439-26-000117"}
+{"ts": "2026-10-27T14:08:14.349026+00:00", "event": "check_ok", "company": "Palantir Technologies Inc. (PLTR)", "result": "ok_no_new", "new_events": 0, "latest": "0001823952-26-000024"}
+{"ts": "2026-10-27T14:08:15.693230+00:00", "event": "check_ok", "company": "Tesla, Inc. (TSLA)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-066775"}
+{"ts": "2026-10-27T14:08:16.437587+00:00", "event": "check_ok", "company": "CoreWeave, Inc. (CRWV)", "result": "ok_no_new", "new_events": 0, "latest": "0001769628-26-000451"}
+{"ts": "2026-10-27T14:08:18.171711+00:00", "event": "check_ok", "company": "Nebius Group N.V. (NBIS)", "result": "ok_no_new", "new_events": 0, "latest": "0001513845-26-000141"}
+{"ts": "2026-10-27T14:08:19.086008+00:00", "event": "check_ok", "company": "Cerebras Systems Inc. (CBRS)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-114412"}
+{"ts": "2026-10-27T14:08:21.880292+00:00", "event": "check_ok", "company": "SPACE EXPLORATION TECHNOLOGIES CORP (SPCX)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-118614"}
+{"ts": "2026-10-27T14:08:23.853633+00:00", "event": "check_ok", "company": "Anthropic (ANT)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-067168"}
+{"ts": "2026-10-27T14:24:21.240690+00:00", "event": "check_ok", "company": "NVIDIA CORP (NVDA)", "result": "ok_no_new", "new_events": 0, "latest": "0002152188-26-000007"}
+{"ts": "2026-10-27T14:24:22.245125+00:00", "event": "check_ok", "company": "MICROSOFT CORP (MSFT)", "result": "ok_no_new", "new_events": 0, "latest": "0001214659-26-013218"}
+{"ts": "2026-10-27T14:24:23.134340+00:00", "event": "check_ok", "company": "Alphabet Inc. (GOOGL)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-423187"}
+{"ts": "2026-10-27T14:24:24.262148+00:00", "event": "check_ok", "company": "Meta Platforms, Inc. (META)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-432549"}
+{"ts": "2026-10-27T14:24:25.383033+00:00", "event": "check_ok", "company": "AMAZON COM INC (AMZN)", "result": "ok_no_new", "new_events": 0, "latest": "0001595602-26-000009"}
+{"ts": "2026-10-27T14:24:26.449416+00:00", "event": "check_ok", "company": "Broadcom Inc. (AVGO)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-110983"}
+{"ts": "2026-10-27T14:24:27.570728+00:00", "event": "check_ok", "company": "ADVANCED MICRO DEVICES INC (AMD)", "result": "ok_no_new", "new_events": 0, "latest": "0000002488-26-000184"}
+{"ts": "2026-10-27T14:24:28.341902+00:00", "event": "check_ok", "company": "ORACLE CORP (ORCL)", "result": "ok_no_new", "new_events": 0, "latest": "0001341439-26-000117"}
+{"ts": "2026-10-27T14:24:29.857709+00:00", "event": "check_ok", "company": "Palantir Technologies Inc. (PLTR)", "result": "ok_no_new", "new_events": 0, "latest": "0001823952-26-000024"}
+{"ts": "2026-10-27T14:24:30.883403+00:00", "event": "check_ok", "company": "Tesla, Inc. (TSLA)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-066775"}
+{"ts": "2026-10-27T14:24:31.888715+00:00", "event": "check_ok", "company": "CoreWeave, Inc. (CRWV)", "result": "ok_no_new", "new_events": 0, "latest": "0001769628-26-000451"}
+{"ts": "2026-10-27T14:24:34.678041+00:00", "event": "check_ok", "company": "Nebius Group N.V. (NBIS)", "result": "ok_no_new", "new_events": 0, "latest": "0001513845-26-000141"}
+{"ts": "2026-10-27T14:24:35.740177+00:00", "event": "check_ok", "company": "Cerebras Systems Inc. (CBRS)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-114412"}
+{"ts": "2026-10-27T14:24:36.641217+00:00", "event": "check_ok", "company": "SPACE EXPLORATION TECHNOLOGIES CORP (SPCX)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-118614"}
+{"ts": "2026-10-27T14:24:37.534068+00:00", "event": "check_ok", "company": "Anthropic (ANT)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-067168"}
+{"ts": "2026-10-27T14:39:16.644030+00:00", "event": "check_ok", "company": "NVIDIA CORP (NVDA)", "result": "ok_no_new", "new_events": 0, "latest": "0002152188-26-000007"}
+{"ts": "2026-10-27T14:39:17.695741+00:00", "event": "check_ok", "company": "MICROSOFT CORP (MSFT)", "result": "ok_no_new", "new_events": 0, "latest": "0001214659-26-013218"}
+{"ts": "2026-10-27T14:39:18.726036+00:00", "event": "check_ok", "company": "Alphabet Inc. (GOOGL)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-423187"}
+{"ts": "2026-10-27T14:39:19.530008+00:00", "event": "check_ok", "company": "Meta Platforms, Inc. (META)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-432549"}
+{"ts": "2026-10-27T14:39:20.688602+00:00", "event": "check_ok", "company": "AMAZON COM INC (AMZN)", "result": "ok_no_new", "new_events": 0, "latest": "0001595602-26-000009"}
+{"ts": "2026-10-27T14:39:21.647064+00:00", "event": "check_ok", "company": "Broadcom Inc. (AVGO)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-110983"}
+{"ts": "2026-10-27T14:39:22.802766+00:00", "event": "check_ok", "company": "ADVANCED MICRO DEVICES INC (AMD)", "result": "ok_no_new", "new_events": 0, "latest": "0000002488-26-000184"}
+{"ts": "2026-10-27T14:39:23.615925+00:00", "event": "check_ok", "company": "ORACLE CORP (ORCL)", "result": "ok_no_new", "new_events": 0, "latest": "0001341439-26-000117"}
+{"ts": "2026-10-27T14:39:24.403821+00:00", "event": "check_ok", "company": "Palantir Technologies Inc. (PLTR)", "result": "ok_no_new", "new_events": 0, "latest": "0001823952-26-000024"}
+{"ts": "2026-10-27T14:39:25.734234+00:00", "event": "check_ok", "company": "Tesla, Inc. (TSLA)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-066775"}
+{"ts": "2026-10-27T14:39:28.407006+00:00", "event": "check_ok", "company": "CoreWeave, Inc. (CRWV)", "result": "ok_no_new", "new_events": 0, "latest": "0001769628-26-000451"}
+{"ts": "2026-10-27T14:39:29.445724+00:00", "event": "check_ok", "company": "Nebius Group N.V. (NBIS)", "result": "ok_no_new", "new_events": 0, "latest": "0001513845-26-000141"}
+{"ts": "2026-10-27T14:39:30.198027+00:00", "event": "check_ok", "company": "Cerebras Systems Inc. (CBRS)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-114412"}
+{"ts": "2026-10-27T14:39:31.018910+00:00", "event": "check_ok", "company": "SPACE EXPLORATION TECHNOLOGIES CORP (SPCX)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-118614"}
+{"ts": "2026-10-27T14:39:32.035765+00:00", "event": "check_ok", "company": "Anthropic (ANT)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-067168"}
+{"ts": "2026-10-27T14:54:22.134441+00:00", "event": "check_ok", "company": "NVIDIA CORP (NVDA)", "result": "ok_no_new", "new_events": 0, "latest": "0002152188-26-000007"}
+{"ts": "2026-10-27T14:54:23.553053+00:00", "event": "check_ok", "company": "MICROSOFT CORP (MSFT)", "result": "ok_no_new", "new_events": 0, "latest": "0001214659-26-013218"}
+{"ts": "2026-10-27T14:54:25.070210+00:00", "event": "check_ok", "company": "Alphabet Inc. (GOOGL)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-423187"}
+{"ts": "2026-10-27T14:54:26.979062+00:00", "event": "check_ok", "company": "Meta Platforms, Inc. (META)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-432549"}
+{"ts": "2026-10-27T14:54:28.764954+00:00", "event": "check_ok", "company": "AMAZON COM INC (AMZN)", "result": "ok_no_new", "new_events": 0, "latest": "0001595602-26-000009"}
+{"ts": "2026-10-27T14:54:30.275570+00:00", "event": "check_ok", "company": "Broadcom Inc. (AVGO)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-110983"}
+{"ts": "2026-10-27T14:54:32.235850+00:00", "event": "check_ok", "company": "ADVANCED MICRO DEVICES INC (AMD)", "result": "ok_no_new", "new_events": 0, "latest": "0000002488-26-000184"}
+{"ts": "2026-10-27T14:54:33.892399+00:00", "event": "check_ok", "company": "ORACLE CORP (ORCL)", "result": "ok_no_new", "new_events": 0, "latest": "0001341439-26-000117"}
+{"ts": "2026-10-27T14:54:35.693236+00:00", "event": "check_ok", "company": "Palantir Technologies Inc. (PLTR)", "result": "ok_no_new", "new_events": 0, "latest": "0001823952-26-000024"}
+{"ts": "2026-10-27T14:54:37.153997+00:00", "event": "check_ok", "company": "Tesla, Inc. (TSLA)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-066775"}
+{"ts": "2026-10-27T14:54:38.840586+00:00", "event": "check_ok", "company": "CoreWeave, Inc. (CRWV)", "result": "ok_no_new", "new_events": 0, "latest": "0001769628-26-000451"}
+{"ts": "2026-10-27T14:54:40.421554+00:00", "event": "check_ok", "company": "Nebius Group N.V. (NBIS)", "result": "ok_no_new", "new_events": 0, "latest": "0001513845-26-000141"}
+{"ts": "2026-10-27T14:54:42.011459+00:00", "event": "check_ok", "company": "Cerebras Systems Inc. (CBRS)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-114412"}
+{"ts": "2026-10-27T14:54:43.354398+00:00", "event": "check_ok", "company": "SPACE EXPLORATION TECHNOLOGIES CORP (SPCX)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-118614"}
+{"ts": "2026-10-27T14:54:44.976154+00:00", "event": "check_ok", "company": "Anthropic (ANT)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-067168"}
+{"ts": "2026-10-27T15:09:23.403182+00:00", "event": "check_ok", "company": "NVIDIA CORP (NVDA)", "result": "ok_no_new", "new_events": 0, "latest": "0002152188-26-000007"}
+{"ts": "2026-10-27T15:09:25.377870+00:00", "event": "check_ok", "company": "MICROSOFT CORP (MSFT)", "result": "ok_no_new", "new_events": 0, "latest": "0001214659-26-013218"}
+{"ts": "2026-10-27T15:09:27.220596+00:00", "event": "check_ok", "company": "Alphabet Inc. (GOOGL)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-423187"}
+{"ts": "2026-10-27T15:09:29.254602+00:00", "event": "check_ok", "company": "Meta Platforms, Inc. (META)", "result": "ok_no_new", "new_events": 0, "latest": "0001193125-26-432549"}
+{"ts": "2026-10-27T15:09:31.470655+00:00", "event": "check_ok", "company": "AMAZON COM INC (AMZN)", "result": "ok_no_new", "new_events": 0, "latest": "0001595602-26-000009"}
+{"ts": "2026-10-27T15:09:33.249779+00:00", "event": "check_ok", "company": "Broadcom Inc. (AVGO)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-110983"}
+{"ts": "2026-10-27T15:09:35.239912+00:00", "event": "check_ok", "company": "ADVANCED MICRO DEVICES INC (AMD)", "result": "ok_no_new", "new_events": 0, "latest": "0000002488-26-000184"}
+{"ts": "2026-10-27T15:09:37.318978+00:00", "event": "check_ok", "company": "ORACLE CORP (ORCL)", "result": "ok_no_new", "new_events": 0, "latest": "0001341439-26-000117"}
+{"ts": "2026-10-27T15:09:39.462153+00:00", "event": "check_ok", "company": "Palantir Technologies Inc. (PLTR)", "result": "ok_no_new", "new_events": 0, "latest": "0001823952-26-000024"}
+{"ts": "2026-10-27T15:09:42.225823+00:00", "event": "check_ok", "company": "Tesla, Inc. (TSLA)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-066775"}
+{"ts": "2026-10-27T15:09:44.788825+00:00", "event": "check_ok", "company": "CoreWeave, Inc. (CRWV)", "result": "ok_no_new", "new_events": 0, "latest": "0001769628-26-000451"}
+{"ts": "2026-10-27T15:09:47.481499+00:00", "event": "check_ok", "company": "Nebius Group N.V. (NBIS)", "result": "ok_no_new", "new_events": 0, "latest": "0001513845-26-000141"}
+{"ts": "2026-10-27T15:09:49.793132+00:00", "event": "check_ok", "company": "Cerebras Systems Inc. (CBRS)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-114412"}
+{"ts": "2026-10-27T15:09:51.561495+00:00", "event": "check_ok", "company": "SPACE EXPLORATION TECHNOLOGIES CORP (SPCX)", "result": "ok_no_new", "new_events": 0, "latest": "0001104659-26-118614"}
+{"ts": "2026-10-27T15:09:53.706781+00:00", "event": "check_ok", "company": "Anthropic (ANT)", "result": "ok_no_new", "new_events": 0, "latest": "0001628280-26-067168"}

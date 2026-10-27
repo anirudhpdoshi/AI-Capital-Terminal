@@ -1,0 +1,186 @@
+{
+ "companies": {
+  "NVIDIA CORP (NVDA)": {
+   "cik": 1045810,
+   "latest_accession": "0002152188-26-000007",
+   "latest_filing": {
+    "form": "4/A",
+    "filed": "2026-10-13",
+    "accession": "0002152188-26-000007",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000215218826000007/xslF345X06/wk-form4a_1791925767.xml"
+   },
+   "last_check": "2026-10-27T15:09:23.403135+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "MICROSOFT CORP (MSFT)": {
+   "cik": 789019,
+   "latest_accession": "0001214659-26-013218",
+   "latest_filing": {
+    "form": "PX14A6G",
+    "filed": "2026-10-26",
+    "accession": "0001214659-26-013218",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000121465926013218/b1026263px14a6g.htm"
+   },
+   "last_check": "2026-10-27T15:09:25.377841+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Alphabet Inc. (GOOGL)": {
+   "cik": 1652044,
+   "latest_accession": "0001193125-26-423187",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-15",
+    "accession": "0001193125-26-423187",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526423187/xslF345X06/ownership.xml"
+   },
+   "last_check": "2026-10-27T15:09:27.220562+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Meta Platforms, Inc. (META)": {
+   "cik": 1326801,
+   "latest_accession": "0001193125-26-432549",
+   "latest_filing": {
+    "form": "FWP",
+    "filed": "2026-10-27",
+    "accession": "0001193125-26-432549",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526432549/d382225dfwp.htm"
+   },
+   "last_check": "2026-10-27T15:09:29.254575+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "AMAZON COM INC (AMZN)": {
+   "cik": 1018724,
+   "latest_accession": "0001595602-26-000009",
+   "latest_filing": {
+    "form": "3/A",
+    "filed": "2026-10-06",
+    "accession": "0001595602-26-000009",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000159560226000009/xslF345X06/wk-form3a_1791322046.xml"
+   },
+   "last_check": "2026-10-27T15:09:31.470620+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Broadcom Inc. (AVGO)": {
+   "cik": 1730168,
+   "latest_accession": "0001104659-26-110983",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-09-25",
+    "accession": "0001104659-26-110983",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml"
+   },
+   "last_check": "2026-10-27T15:09:33.249749+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "ADVANCED MICRO DEVICES INC (AMD)": {
+   "cik": 2488,
+   "latest_accession": "0000002488-26-000184",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-19",
+    "accession": "0000002488-26-000184",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/xslF345X06/wk-form4_1792441001.xml"
+   },
+   "last_check": "2026-10-27T15:09:35.239877+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "ORACLE CORP (ORCL)": {
+   "cik": 1341439,
+   "latest_accession": "0001341439-26-000117",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-19",
+    "accession": "0001341439-26-000117",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000117/xslF345X06/form4.xml"
+   },
+   "last_check": "2026-10-27T15:09:37.318949+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Palantir Technologies Inc. (PLTR)": {
+   "cik": 1321655,
+   "latest_accession": "0001823952-26-000024",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-19",
+    "accession": "0001823952-26-000024",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/xslF345X06/wk-form4_1792454773.xml"
+   },
+   "last_check": "2026-10-27T15:09:39.462125+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Tesla, Inc. (TSLA)": {
+   "cik": 1318605,
+   "latest_accession": "0001628280-26-066775",
+   "latest_filing": {
+    "form": "10-Q",
+    "filed": "2026-10-22",
+    "accession": "0001628280-26-066775",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+   },
+   "last_check": "2026-10-27T15:09:42.225795+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "CoreWeave, Inc. (CRWV)": {
+   "cik": 1769628,
+   "latest_accession": "0001769628-26-000451",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-22",
+    "accession": "0001769628-26-000451",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000451/xslF345X06/form4.xml"
+   },
+   "last_check": "2026-10-27T15:09:44.788797+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Nebius Group N.V. (NBIS)": {
+   "cik": 1513845,
+   "latest_accession": "0001513845-26-000141",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-26",
+    "accession": "0001513845-26-000141",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/xslF345X06/form4.xml"
+   },
+   "last_check": "2026-10-27T15:09:47.481471+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Cerebras Systems Inc. (CBRS)": {
+   "cik": 2021728,
+   "latest_accession": "0001104659-26-114412",
+   "latest_filing": {
+    "form": "4",
+    "filed": "2026-10-07",
+    "accession": "0001104659-26-114412",
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000110465926114412/xslF345X06/tm2627178-1_4seq1.xml"
+   },
+   "last_check": "2026-10-27T15:09:49.793104+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "SPACE EXPLORATION TECHNOLOGIES CORP (SPCX)": {
+   "cik": 1181412,
+   "latest_accession": "0001104659-26-118614",
+   "latest_filing": {
+    "form": "8-K",
+    "filed": "2026-10-26",
+    "accession": "0001104659-26-118614",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"
+   },
+   "last_check": "2026-10-27T15:09:51.561303+00:00",
+   "last_check_result": "ok_no_new"
+  },
+  "Anthropic (ANT)": {
+   "cik": 2130357,
+   "latest_accession": "0001628280-26-067168",
+   "latest_filing": {
+    "form": "S-1",
+    "filed": "2026-10-26",
+    "accession": "0001628280-26-067168",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+   },
+   "last_check": "2026-10-27T15:09:53.706755+00:00",
+   "last_check_result": "ok_no_new"
+  }
+ },
+ "events": [],
+ "metrics": {}
+}

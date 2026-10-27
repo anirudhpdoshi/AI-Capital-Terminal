@@ -1,0 +1,39 @@
+# Dependency graph (spec §6). An event recalculates ONLY its downstream nodes, in order.
+nodes:
+  capex_commitment:      {label: "CAPEX commitment / guidance"}
+  payment_schedule:      {label: "CAPEX payment schedule"}
+  investing_cf:          {label: "Investing cash flow"}
+  cash_balance:          {label: "Cash balance forecast"}
+  liquidity_buffer:      {label: "Liquidity buffer"}
+  refi_risk:             {label: "Debt / refinancing risk"}
+  counterparty_exposure: {label: "Counterparty exposure"}
+  stress_results:        {label: "Stress-test results"}
+  guarantee:             {label: "Guarantee / contingent obligation"}
+  contingent_exposure:   {label: "Contingent exposure"}
+  downside_scenario:     {label: "Downside scenario"}
+  network_concentration: {label: "Network concentration indicators"}
+  depreciation_estimate: {label: "Depreciation / asset-life estimate"}
+  forecast_earnings:     {label: "Forecast earnings"}
+  asset_values:          {label: "Asset carrying values"}
+  tax_wc_effects:        {label: "Tax / working-capital effects (only cash channel for depreciation)"}
+  debt_event:            {label: "Debt / financing event"}
+  order_book:            {label: "Order book / backlog"}
+  revenue_forecast:      {label: "Revenue forecast"}
+edges:
+  capex_commitment: [payment_schedule]
+  payment_schedule: [investing_cf]
+  investing_cf: [cash_balance]
+  debt_event: [cash_balance, refi_risk]
+  cash_balance: [liquidity_buffer]
+  liquidity_buffer: [refi_risk]
+  refi_risk: [counterparty_exposure]
+  counterparty_exposure: [stress_results]
+  guarantee: [contingent_exposure]
+  contingent_exposure: [downside_scenario]
+  downside_scenario: [liquidity_buffer, network_concentration]
+  depreciation_estimate: [forecast_earnings, asset_values, tax_wc_effects]
+  tax_wc_effects: [cash_balance]
+  order_book: [revenue_forecast]
+  revenue_forecast: [cash_balance]
+# NOTE: there is deliberately NO edge depreciation_estimate -> investing_cf / cash_balance directly.
+# Depreciation is non-cash; it reaches cash only through tax_wc_effects.

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Raw research dumps stay out of the repo; only verified, sourced data is committed
+research_raw/
+*.tmp
+src/

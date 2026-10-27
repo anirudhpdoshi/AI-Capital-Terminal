@@ -1,0 +1,1 @@
+alert_date,company,ticker,trigger_thresholds_hit,peak_decline_pct,trough_date,recovery_5d_pct,recovery_20d_pct,recovery_60d_pct,explanation_quality_confirmed_plausible_unconfirmed,post_shock_fundamental_change,notes

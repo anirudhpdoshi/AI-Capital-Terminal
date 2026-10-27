@@ -1,0 +1,61 @@
+# Source registry — cadence follows source publication behaviour (spec §2).
+# check_interval_min = during active monitoring; freshness_threshold = beyond this, status = Stale and an alert fires.
+sources:
+  - id: sec_edgar_submissions
+    name: SEC EDGAR submissions API
+    url_template: "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+    tier: 1
+    check_interval_min: 15
+    freshness_threshold_min: 60
+    rate_limit: "max 10 req/s per SEC fair-access; this engine uses <=1 req/s"
+    retry: {max_attempts: 4, backoff_base_s: 2, backoff_factor: 2}
+    notes: "Detects new filings + amendments. 'No new filing' is a successful check, distinct from a failed check."
+  - id: sec_company_facts
+    name: SEC Company Facts API
+    url_template: "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"
+    tier: 1
+    check_interval_min: 1440
+    freshness_threshold_min: 10080
+    notes: "Structured reported facts only; contracts/guarantees/policies come from original filings."
+  - id: sedar_plus
+    name: SEDAR+
+    url: "https://www.sedarplus.ca/"
+    tier: 1
+    check_interval_min: 60
+    freshness_threshold_min: 2880
+    notes: "Canadian issuers, business days. Automated access is limited; checks may be Manually Verified."
+  - id: company_ir
+    name: Official company IR / press releases
+    tier: 3
+    check_interval_min: 30
+    freshness_threshold_min: 1440
+    notes: "Announcement time recorded separately from discovery time. Media coverage is discovery only (tier 6), never confirmation."
+  - id: finra_trace
+    name: FINRA TRACE (licensed)
+    tier: 5
+    check_interval_min: 0
+    freshness_threshold_min: 0
+    status: unavailable_no_licence
+    notes: "No licence connected. Bond trade fields stay 'unavailable' — never simulated."
+  - id: ice_cds
+    name: ICE Data Services — CDS (licensed)
+    tier: 5
+    check_interval_min: 0
+    freshness_threshold_min: 0
+    status: unavailable_no_licence
+    notes: "No licence connected. CDS curves unavailable; only dated, named-source prints are carried."
+  - id: fred
+    name: FRED / publishing agencies
+    tier: 4
+    check_interval_min: 1440
+    freshness_threshold_min: 4320
+    notes: "Macro series per official release calendars; revisions preserved."
+companies:
+  # ticker: CIK resolved from SEC company_tickers.json at runtime; Anthropic CIK from its S-1.
+  edgar_tickers: [NVDA, MSFT, GOOGL, META, AMZN, AVGO, AMD, ORCL, PLTR, TSLA, CRWV, NBIS, CBRS, SPCX]
+  edgar_extra:
+    - {name: Anthropic, cik: 2130357, note: "S-1 filed 26 Oct 2026, ticker ANT (pre-IPO)"}
+  no_edgar_presence: [OpenAI, Databricks, Scale AI, Anduril, Waymo, Figure AI, SSI, Mistral AI, Perplexity]
+materiality:
+  major_metric_change_pct: 5.0
+  always_flag: [covenant_threat, liquidity_buffer_threat, contractual_obligation_threat, guarantee_change, rating_action, restatement]

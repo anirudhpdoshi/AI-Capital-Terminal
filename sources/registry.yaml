@@ -1,0 +1,19 @@
+# Source register — tier 1 highest. Every figure in data/ must trace to an entry here or an inline source link.
+sources:
+  - {name: FINRA TRACE, tier: 1, type: market_data_licensed_terms, url: "https://www.finra.org/finra-data/fixed-income", supports: "US OTC bond transactions (Panels 2)", last_checked: ""}
+  - {name: SEC EDGAR, tier: 1, type: filing, url: "https://www.sec.gov/edgar/search/", supports: "Debt footnotes, prospectuses, credit agreements, maturities (Panels 1,3,5,6)", last_checked: ""}
+  - {name: ICE Data Services — Credit Derivatives, tier: 8, type: licensed_feed, url: "https://www.ice.com/fixed-income-data-services/data-and-analytics/derivatives/credit", supports: "CDS curves where licensed (Panel 4)", last_checked: ""}
+  - {name: DTCC Market Data / CDS Kinetics, tier: 6, type: aggregate_data, url: "https://www.dtcc.com/market-index-data", supports: "Aggregated CDS activity/positions only — never executable single-name quotes (Panel 4)", last_checked: ""}
+  - {name: US Treasury Daily Par Yields, tier: 1, type: government, url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates", supports: "Benchmark yields for spread decomposition (Panels 2,6)", last_checked: ""}
+  - {name: Bank of Canada Rates, tier: 1, type: government, url: "https://www.bankofcanada.ca/rates/", supports: "Canadian benchmarks", last_checked: ""}
+  - {name: FRED (Federal Reserve), tier: 1, type: government, url: "https://fred.stlouisfed.org/", supports: "Reference rates and benchmark history", last_checked: ""}
+  - {name: S&P Global Ratings, tier: 2, type: rating_agency, url: "https://www.spglobal.com/ratings/", supports: "Ratings/actions (Panel 5)", last_checked: ""}
+  - {name: Moody's Ratings, tier: 2, type: rating_agency, url: "https://ratings.moodys.com/", supports: "Ratings/actions (Panel 5)", last_checked: ""}
+  - {name: Fitch Ratings, tier: 2, type: rating_agency, url: "https://www.fitchratings.com/", supports: "Ratings/actions (Panel 5)", last_checked: ""}
+
+# - name:
+#   tier: 1|2|3|4|5|6|7|8
+#   type: filing|company_ir|government|investor|wire|database|specialist|broker_indication
+#   url:
+#   supports:
+#   last_checked:
